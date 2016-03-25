@@ -570,7 +570,7 @@ powerful. You can use ``{{else}}`` as well.
 * More about conditionals in templates: ``http://guides.emberjs.com/v2.4.0/templates/conditionals/``
 
 Brilliant. You learned a lot about Ember.js and you have just
-implemented these great features.
+implemented these great features. :scream:
 
 # Helpfull links & resources
 
