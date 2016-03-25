@@ -25,6 +25,7 @@ Router.map(function() {
   this.route('simple');
   this.route('collections');
   this.route('index', { path: '/' });
+  this.route('impagination');
 });
 
 export default Router;
