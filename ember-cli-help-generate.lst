@@ -1,0 +1,150 @@
+http://ember-cli.com/extending/
+
+version: 2.4.2
+Requested ember-cli commands:
+
+ember generate <blueprint> <options...>
+  Generates new code from blueprints.
+  aliases: g
+  --dry-run (Boolean) (Default: false)
+    aliases: -d
+  --verbose (Boolean) (Default: false)
+    aliases: -v
+  --pod (Boolean) (Default: false)
+    aliases: -p
+  --classic (Boolean) (Default: false)
+    aliases: -c
+  --dummy (Boolean) (Default: false)
+    aliases: -dum, -id
+  --in-repo-addon (String) (Default: null)
+    aliases: --in-repo <value>, -ir <value>
+
+
+  Available blueprints:
+    liquid-fire:
+      transition <name>
+        Generates a liquid fire transition.
+    emberfire:
+      emberfire <name> <options...>
+        --url (String)
+      firebase-adapter <name>
+        Generates a firebase adapter.
+      firebase-torii-adapter <name>
+        Generates a default Torii adapter to authenticate with Firebase.
+    ember-data:
+      adapter <name> <options...>
+        Generates an ember-data adapter.
+        --base-class (String)
+      adapter-test <name>
+        Generates an ember-data adapter unit test
+      model <name> <attr:type>
+        Generates an ember-data model.
+      model-test <name>
+        Generates a model unit test.
+      serializer <name>
+        Generates an ember-data serializer.
+      serializer-test <name>
+        Generates a serializer unit test.
+      transform <name>
+        Generates an ember-data value transform.
+      transform-test <name>
+        Generates a transform unit test.
+    ember-cli-release:
+      ember-cli-release <name>
+    ember-cli-qunit:
+      ember-cli-qunit <name>
+    ember-moment:
+      ember-moment <name>
+    ember-cli-moment-shim:
+      ember-cli-moment-shim <name>
+    ember-cli-font-awesome:
+      ember-cli-font-awesome <name>
+    ember-bootstrap:
+      ember-bootstrap <name>
+    ember-cli:
+      acceptance-test <name>
+        Generates an acceptance test for a feature.
+      addon <name>
+        The default blueprint for ember-cli addons.
+      addon-import <name>
+        Generates an import wrapper.
+      app <name>
+        The default blueprint for ember-cli projects.
+      blueprint <name>
+        Generates a blueprint and definition.
+      component <name> <options...>
+        Generates a component. Name must contain a hyphen.
+        --path (String) (Default: components)
+          aliases: --no-path (--path=)
+      component-addon <name>
+        Generates a component. Name must contain a hyphen.
+      component-test <name> <options...>
+        Generates a component integration or unit test.
+        --test-type (integration, unit) (Default: integration)
+          aliases: -i (--test-type=integration), -u (--test-type=unit), --integration (--test-type=integration), -unit (--test-type=unit)
+      controller <name>
+        Generates a controller.
+      controller-test <name>
+        Generates a controller unit test.
+      helper <name>
+        Generates a helper function.
+      helper-addon <name>
+        Generates an import wrapper.
+      helper-test <name>
+        Generates a helper unit test.
+      http-mock <endpoint-path>
+        Generates a mock api endpoint in /api prefix.
+      http-proxy <local-path> <remote-url>
+        Generates a relative proxy to another server.
+      in-repo-addon <name>
+        The blueprint for addon in repo ember-cli addons.
+      initializer <name>
+        Generates an initializer.
+      initializer-addon <name>
+        Generates an import wrapper.
+      initializer-test <name>
+        Generates an initializer unit test.
+      instance-initializer <name>
+        Generates an instance initializer.
+      instance-initializer-addon <name>
+        Generates an import wrapper.
+      instance-initializer-test <name>
+        Generates an instance initializer unit test.
+      lib <name>
+        Generates a lib directory for in-repo addons.
+      mixin <name>
+        Generates a mixin.
+      mixin-test <name>
+        Generates a mixin unit test.
+      resource <name>
+        Generates a model, template, route, and registers the route with the router.
+      route <name> <options...>
+        Generates a route and a template, and registers the route with the router.
+        --path (String) (Default: )
+        --skip-router (Boolean) (Default: false)
+        --reset-namespace (Boolean)
+      route-addon <name>
+        Generates import wrappers for a route and its template.
+      route-test <name>
+        Generates a route unit test.
+      server <name>
+        Generates a server directory for mocks and proxies.
+      service <name>
+        Generates a service.
+      service-test <name>
+        Generates a service unit test.
+      template <name>
+        Generates a template.
+      test-helper <name>
+        Generates a test helper.
+      util <name>
+        Generates a simple utility module/function.
+      util-test <name>
+        Generates a util unit test.
+      vendor-shim <name>
+        Generates an ES6 module shim for global libraries.
+      view <name>
+        Generates a view subclass.
+      view-test <name>
+        Generates a view unit test.
+

@@ -1,0 +1,19 @@
+.callout {
+    padding: 20px;
+    margin: 20px 0;
+    border: 1px solid #eee;
+    border-left-width: 5px;
+    border-radius: 3px;
+}
+
+.callout+.callout {
+    margin-top: -5px;
+}
+.callout-danger {
+    border-left-color: $tertiary-vd;
+    background-color: lighten($tertiary-vl, 20%);
+}
+.callout-info {
+    border-left-color: $secondary;
+    background-color: $secondary-vl;
+}

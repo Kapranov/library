@@ -1,0 +1,29 @@
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      {{#link-to 'index' class="navbar-brand"}}{{fa-icon "fa-weibo" size="lg" spin=true}}{{/link-to}}
+    </div>
+    <div class="collapse navbar-collapse" id="main-navbar">
+      <ul class="nav navbar-nav">
+        {{#link-to 'index' tagName="li"}}<a href="">Theory</a>{{/link-to}}
+        {{#link-to 'fundamentals' tagName="li" class='toLeft-demo'}}<a href="">Fundamental</a>{{/link-to}}
+        {{#link-to 'strings' tagName="li"}}<a href="">Strings</a>{{/link-to}}
+        {{#link-to 'dimensions' tagName="li"}}<a href="">Extra</a>{{/link-to}}
+        {{#link-to 'dualities' tagName="li"}}<a href="">Dualities</a>{{/link-to}}
+        {{#link-to 'branes' tagName="li"}}<a href="">Branes</a>{{/link-to}}
+        {{#link-to 'superstrings' tagName="li"}}<a href="">M-theory</a>{{/link-to}}
+        {{#link-to 'unifications' tagName="li"}}<a href="">Unifications</a>{{/link-to}}
+        {{#link-to 'matrices' tagName="li"}}<a href="">Matrix</a>{{/link-to}}
+        {{#link-to 'correspondences' tagName="li"}}<a href="">AdS/CFT</a>{{/link-to}}
+        {{#link-to 'phenomenologies' tagName="li"}}<a href="">Phenomenology</a>{{/link-to}}
+        {{#link-to 'gravities' tagName="li"}}<a href="">Gravity</a>{{/link-to}}
+      </ul>
+    </div>
+  </div>
+</nav>
